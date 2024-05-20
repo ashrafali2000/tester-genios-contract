@@ -451,22 +451,46 @@ const Lines = () => {
 };
 
 export default Lines;
-export const address = "0xCA23651A95c89c2C8CfEFF9A7c8ef345577bD51B";
+export const address = "0xd47E52DEeE727380540823541E53C3C35331Ef13";
 export const abi = [
   {
     inputs: [
-      { internalType: "address", name: "_owner", type: "address" },
-      { internalType: "address", name: "_Idx", type: "address" },
-      { internalType: "address", name: "_admin", type: "address" },
-      { internalType: "address", name: "_dai", type: "address" },
+      {
+        internalType: "address",
+        name: "_owner",
+        type: "address",
+      },
+      {
+        internalType: "address",
+        name: "_Idx",
+        type: "address",
+      },
+      {
+        internalType: "address",
+        name: "_admin",
+        type: "address",
+      },
+      {
+        internalType: "address",
+        name: "_dai",
+        type: "address",
+      },
     ],
     stateMutability: "nonpayable",
     type: "constructor",
   },
   {
     inputs: [
-      { internalType: "address", name: "_user", type: "address" },
-      { internalType: "uint256", name: "_amount", type: "uint256" },
+      {
+        internalType: "address",
+        name: "_user",
+        type: "address",
+      },
+      {
+        internalType: "uint256",
+        name: "_amount",
+        type: "uint256",
+      },
     ],
     name: "AddUpgradeAmount",
     outputs: [],
@@ -474,19 +498,45 @@ export const abi = [
     type: "function",
   },
   {
-    inputs: [{ internalType: "address", name: "", type: "address" }],
+    inputs: [
+      {
+        internalType: "address",
+        name: "",
+        type: "address",
+      },
+    ],
     name: "AddressToId",
-    outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
+    outputs: [
+      {
+        internalType: "uint256",
+        name: "",
+        type: "uint256",
+      },
+    ],
     stateMutability: "view",
     type: "function",
   },
   {
     inputs: [
-      { internalType: "address", name: "_user", type: "address" },
-      { internalType: "uint256", name: "_matrix", type: "uint256" },
+      {
+        internalType: "address",
+        name: "_user",
+        type: "address",
+      },
+      {
+        internalType: "uint256",
+        name: "_matrix",
+        type: "uint256",
+      },
     ],
     name: "CurrentCycleNo",
-    outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
+    outputs: [
+      {
+        internalType: "uint256",
+        name: "",
+        type: "uint256",
+      },
+    ],
     stateMutability: "view",
     type: "function",
   },
@@ -498,86 +548,210 @@ export const abi = [
     type: "function",
   },
   {
-    inputs: [{ internalType: "uint256", name: "", type: "uint256" }],
+    inputs: [
+      {
+        internalType: "uint256",
+        name: "",
+        type: "uint256",
+      },
+    ],
     name: "IdToAddress",
-    outputs: [{ internalType: "address", name: "", type: "address" }],
+    outputs: [
+      {
+        internalType: "address",
+        name: "",
+        type: "address",
+      },
+    ],
     stateMutability: "view",
     type: "function",
   },
   {
     inputs: [
-      { internalType: "address", name: "_ref", type: "address" },
-      { internalType: "uint256", name: "_cycle", type: "uint256" },
-      { internalType: "uint256", name: "_matrix", type: "uint256" },
-      { internalType: "uint256", name: "_id", type: "uint256" },
+      {
+        internalType: "address",
+        name: "_ref",
+        type: "address",
+      },
+      {
+        internalType: "uint256",
+        name: "_cycle",
+        type: "uint256",
+      },
+      {
+        internalType: "uint256",
+        name: "_matrix",
+        type: "uint256",
+      },
+      {
+        internalType: "uint256",
+        name: "_id",
+        type: "uint256",
+      },
     ],
     name: "IdToPosition",
-    outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
+    outputs: [
+      {
+        internalType: "uint256",
+        name: "",
+        type: "uint256",
+      },
+    ],
     stateMutability: "view",
     type: "function",
   },
   {
-    inputs: [{ internalType: "address", name: "", type: "address" }],
+    inputs: [
+      {
+        internalType: "address",
+        name: "",
+        type: "address",
+      },
+    ],
     name: "IsUserExists",
-    outputs: [{ internalType: "bool", name: "", type: "bool" }],
+    outputs: [
+      {
+        internalType: "bool",
+        name: "",
+        type: "bool",
+      },
+    ],
     stateMutability: "view",
     type: "function",
   },
   {
     inputs: [],
     name: "LAST_LEVEL",
-    outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
+    outputs: [
+      {
+        internalType: "uint256",
+        name: "",
+        type: "uint256",
+      },
+    ],
     stateMutability: "view",
     type: "function",
   },
   {
     inputs: [],
     name: "LastIdUser",
-    outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
+    outputs: [
+      {
+        internalType: "uint256",
+        name: "",
+        type: "uint256",
+      },
+    ],
     stateMutability: "view",
     type: "function",
   },
   {
     inputs: [],
     name: "LastUserId",
-    outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
-    stateMutability: "view",
-    type: "function",
-  },
-  {
-    inputs: [{ internalType: "uint256", name: "", type: "uint256" }],
-    name: "MatrixRates",
-    outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
+    outputs: [
+      {
+        internalType: "uint256",
+        name: "",
+        type: "uint256",
+      },
+    ],
     stateMutability: "view",
     type: "function",
   },
   {
     inputs: [
-      { internalType: "uint256", name: "one_", type: "uint256" },
-      { internalType: "uint256", name: "two_", type: "uint256" },
-      { internalType: "uint256", name: "third_", type: "uint256" },
+      {
+        internalType: "uint256",
+        name: "",
+        type: "uint256",
+      },
+    ],
+    name: "MatrixRates",
+    outputs: [
+      {
+        internalType: "uint256",
+        name: "",
+        type: "uint256",
+      },
+    ],
+    stateMutability: "view",
+    type: "function",
+  },
+  {
+    inputs: [
+      {
+        internalType: "uint256",
+        name: "one_",
+        type: "uint256",
+      },
+      {
+        internalType: "uint256",
+        name: "two_",
+        type: "uint256",
+      },
+      {
+        internalType: "uint256",
+        name: "third_",
+        type: "uint256",
+      },
     ],
     name: "PositionCalculator",
-    outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
+    outputs: [
+      {
+        internalType: "uint256",
+        name: "",
+        type: "uint256",
+      },
+    ],
     stateMutability: "pure",
     type: "function",
   },
   {
     inputs: [
-      { internalType: "address", name: "_ref", type: "address" },
-      { internalType: "uint256", name: "cycle", type: "uint256" },
-      { internalType: "uint256", name: "_matrix", type: "uint256" },
-      { internalType: "uint256", name: "_postion", type: "uint256" },
+      {
+        internalType: "address",
+        name: "_ref",
+        type: "address",
+      },
+      {
+        internalType: "uint256",
+        name: "cycle",
+        type: "uint256",
+      },
+      {
+        internalType: "uint256",
+        name: "_matrix",
+        type: "uint256",
+      },
+      {
+        internalType: "uint256",
+        name: "_postion",
+        type: "uint256",
+      },
     ],
     name: "PositionToId",
-    outputs: [{ internalType: "uint256", name: "", type: "uint256" }],
+    outputs: [
+      {
+        internalType: "uint256",
+        name: "",
+        type: "uint256",
+      },
+    ],
     stateMutability: "view",
     type: "function",
   },
   {
     inputs: [
-      { internalType: "address", name: "_newUser", type: "address" },
-      { internalType: "address", name: "_Ref", type: "address" },
+      {
+        internalType: "address",
+        name: "_newUser",
+        type: "address",
+      },
+      {
+        internalType: "address",
+        name: "_Ref",
+        type: "address",
+      },
     ],
     name: "Register",
     outputs: [],
@@ -586,8 +760,16 @@ export const abi = [
   },
   {
     inputs: [
-      { internalType: "address", name: "_newUser", type: "address" },
-      { internalType: "uint256", name: "_matrix", type: "uint256" },
+      {
+        internalType: "address",
+        name: "_newUser",
+        type: "address",
+      },
+      {
+        internalType: "uint256",
+        name: "_matrix",
+        type: "uint256",
+      },
     ],
     name: "Upgrade",
     outputs: [],
@@ -595,32 +777,115 @@ export const abi = [
     type: "function",
   },
   {
-    inputs: [{ internalType: "address", name: "", type: "address" }],
+    inputs: [
+      {
+        internalType: "address",
+        name: "",
+        type: "address",
+      },
+    ],
     name: "Users",
     outputs: [
-      { internalType: "uint256", name: "Id", type: "uint256" },
-      { internalType: "uint256", name: "DirectRefs", type: "uint256" },
-      { internalType: "uint256", name: "ReinvestCount", type: "uint256" },
-      { internalType: "uint256", name: "Earnings", type: "uint256" },
-      { internalType: "uint256", name: "Amount", type: "uint256" },
-      { internalType: "uint256", name: "upgradeBalance", type: "uint256" },
-      { internalType: "uint256", name: "recycle1", type: "uint256" },
-      { internalType: "uint256", name: "recycle2", type: "uint256" },
-      { internalType: "uint256", name: "recycle3", type: "uint256" },
-      { internalType: "uint256", name: "recycle4", type: "uint256" },
-      { internalType: "uint256", name: "recycle5", type: "uint256" },
-      { internalType: "uint256", name: "recycle6", type: "uint256" },
-      { internalType: "uint256", name: "recycle7", type: "uint256" },
-      { internalType: "uint256", name: "recycle8", type: "uint256" },
-      { internalType: "address", name: "DRef", type: "address" },
+      {
+        internalType: "uint256",
+        name: "Id",
+        type: "uint256",
+      },
+      {
+        internalType: "uint256",
+        name: "DirectRefs",
+        type: "uint256",
+      },
+      {
+        internalType: "uint256",
+        name: "ReinvestCount",
+        type: "uint256",
+      },
+      {
+        internalType: "uint256",
+        name: "Earnings",
+        type: "uint256",
+      },
+      {
+        internalType: "uint256",
+        name: "Amount",
+        type: "uint256",
+      },
+      {
+        internalType: "uint256",
+        name: "upgradeBalance",
+        type: "uint256",
+      },
+      {
+        internalType: "uint256",
+        name: "recycleBalance",
+        type: "uint256",
+      },
+      {
+        internalType: "uint256",
+        name: "recycle1",
+        type: "uint256",
+      },
+      {
+        internalType: "uint256",
+        name: "recycle2",
+        type: "uint256",
+      },
+      {
+        internalType: "uint256",
+        name: "recycle3",
+        type: "uint256",
+      },
+      {
+        internalType: "uint256",
+        name: "recycle4",
+        type: "uint256",
+      },
+      {
+        internalType: "uint256",
+        name: "recycle5",
+        type: "uint256",
+      },
+      {
+        internalType: "uint256",
+        name: "recycle6",
+        type: "uint256",
+      },
+      {
+        internalType: "uint256",
+        name: "recycle7",
+        type: "uint256",
+      },
+      {
+        internalType: "uint256",
+        name: "recycle8",
+        type: "uint256",
+      },
+      {
+        internalType: "address",
+        name: "DRef",
+        type: "address",
+      },
     ],
     stateMutability: "view",
     type: "function",
   },
   {
-    inputs: [{ internalType: "address", name: "_user", type: "address" }],
+    inputs: [
+      {
+        internalType: "address",
+        name: "_user",
+        type: "address",
+      },
+    ],
     name: "withdrawFeeAmount",
-    outputs: [{ internalType: "bool", name: "", type: "bool" }],
+    outputs: [
+      {
+        internalType: "bool",
+        name: "",
+        type: "bool",
+      },
+    ],
     stateMutability: "nonpayable",
     type: "function",
   },
